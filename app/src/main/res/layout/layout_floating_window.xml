@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageButton
+        android:id="@+id/btn_disconnect"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/circle_background_idle"
+        android:src="@drawable/ic_disconnect"
+        android:contentDescription="控制网络连接"
+        android:scaleType="centerInside"
+        android:elevation="8dp" />
+
+</FrameLayout>

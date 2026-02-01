@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拔线"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="目标应用：未设置"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_choose_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择目标应用"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动悬浮窗"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n说明：\n- 先选择目标应用\n- 启动悬浮窗后点击悬浮按钮\n- 将只对目标应用断网约1秒，随后自动恢复"
+        android:textSize="12sp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
